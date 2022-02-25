@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+#submit{
+    padding: 10px 30px;
+    background: rgb(199, 131, 43);
+    margin: 50px 0px 0 100px;
+}
+#allCountry{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#inpt{
+    margin: 50px 0px 30px 20px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid rgb(247, 211, 6);
+    border-radius: 10px;
+}
+.fas{
+    font-size: 25px;
+}
+.fas:hover{
+    color: rgb(20, 228, 55);
+}
+.country{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 320px;
+    margin: 5px;
+    background: rgba(156, 127, 59, 0.4);
+    margin: 15px;
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    margin: 10px 10px 0 ;
+    width: 102px;
+}
+.country > h2{
+    margin: 10px;
+}
+.country > h3{
+    margin: 10px;
+    color: rgba(14, 53, 32, 0.7);
+}
+.country > p{
+    margin: 10px;
+}
+.country > button{
+    padding: 10px 30px;
+    background: burlywood;
+    margin: 10px 15px 10px 10px;
+}
